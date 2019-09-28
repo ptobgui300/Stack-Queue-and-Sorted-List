@@ -1,0 +1,66 @@
+TESTING QUEUE..
+
+Queue is empty..
+Copy constructor firing..
+H-ptr->[30]-><-T-ptrDestructor firing...
+
+POP :
+Copy constructor firing..
+H-ptr-><-T-ptrDestructor firing...
+
+Queue is empty..
+Copy constructor firing..
+H-ptr->[0]->[1]->[2]->[3]-><-T-ptrDestructor firing...
+
+POP:
+Copy constructor firing..
+H-ptr->[1]->[2]->[3]-><-T-ptrDestructor firing...
+
+Copy constructor firing..
+H-ptr->[2]->[3]-><-T-ptrDestructor firing...
+
+Copy constructor firing..
+H-ptr->[3]-><-T-ptrDestructor firing...
+
+Destructor firing...
+TESTING STACK..
+
+Stack is empty..
+Copy constructor firing..
+H-ptr->[4]->[3]->[2]->[1]->[0]->|||Destructor firing...
+
+Stack is not empty..
+top : 4
+Pop :
+Copy constructor firing..
+H-ptr->[3]->[2]->[1]->[0]->|||Destructor firing...
+
+Copy constructor firing..
+H-ptr->[2]->[1]->[0]->|||Destructor firing...
+
+Copy constructor firing..
+H-ptr->[1]->[0]->|||Destructor firing...
+
+Copy constructor firing..
+H-ptr->[0]->|||Destructor firing...
+
+Copy constructor firing..
+H-ptr->|||Destructor firing...
+
+Copy constructor firing..
+H-ptr->|||Destructor firing...
+
+Destructor firing...
+TESTING SORTED LIST..
+
+Copy constructor firing..
+H-ptr->[1.9]->[2.9]->[3.9]->[4.9]->|||Destructor firing...
+
+Copy constructor firing..
+H-ptr->[1.1]->[1.9]->[2.1]->[2.9]->[3.1]->[3.9]->[4.1]->[4.9]->|||Destructor firing...
+
+Copy constructor firing..
+H-ptr->[-3.14]->[1.1]->[1.9]->[2.1]->[2.9]->[3.1]->[3.9]->[4.1]->[4.9]->[99.99]->|||Destructor firing...
+
+Destructor firing...
+Press <RETURN> to close this window...
